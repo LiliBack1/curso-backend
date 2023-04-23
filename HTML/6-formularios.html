@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Formularios</h1>
+    <form>
+        <label for="name">Nombre: </label>
+        <input type="text" id="name" placeholder="Ingrese su nombre" autocomplete="off">
+        <br>
+        <label for="pass">contraseña:</label>        
+        <input type-"password" id="pass" placeholder="ingrese su contraseña">
+        <br>
+        <label for="mail">correo:</label>
+        <input type="email" id="mail" placeholder="ingrese su correo">
+        <input type="submit" required">
+        <br>
+        <!-- checkbox permite tener una casilla de verificacion -->
+        <input type="checkbox">
+        <label>Acepto terminos y condiciones</label>
+        <br>
+        <h2>Selecccione su lenjuaje favorito</h2>
+        <!-- radio permite selecionar una opcion -->
+        <input type="radio" name="lenguaje" id="lenguaje-php" value="php">
+        <label>PHP</label>
+        
+        <input type="radio" name="lenguaje" id="lenguaje-js" value="js">
+        <label>JavaScript</label>
+        <input type="radio" name="lenguaje" id="lenguaje-py" value="py">
+        <label>python</label>
+        <br>
+        <label >Ingrese su fecha de nacimiento:</label 
+            <input type="date">
+        <br>
+        <label >ingrese su color favorito</label>
+        <input type="color">
+        <br>
+        <input type="button" value="boton 1">
+        <br>
+        <label>edad</label>
+        <input type="number" id="age" placeholder="ingrese su eda">
+        <br>
+        <!-- activa una busqueda en el sitio -->
+        <label>buscar</label>
+        <input type="search" placeholder="busqueda">
+        <br>
+        <!-- deja subir archivos -->
+        <input type="file">
+        <br>
+        
+        <label for="comentarios">deja tus comentarios</label>
+        <textarea id="comentarios"></textarea>
+        <br>
+        <h3>Selecciona u lengiaje de programacion</h3>
+        <select>
+            <option>php</option>
+            <option>JavaScript</option>
+            <option>python</option>
+        </select>
+        <!-- el campo que envia el formulario -->
+
+        <input type="submit">
+        <br>
+    
+    </form>
+</body>
+</html>
